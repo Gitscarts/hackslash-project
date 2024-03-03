@@ -1,0 +1,184 @@
+.all {
+}
+.suball {
+  margin-left: 6%;
+  margin-top: -10px;
+  margin-right: 100px;
+}
+.sub {
+  display: flex;
+  flex-direction: row;
+}
+.sub1 {
+  display: flex;
+  flex-direction: row;
+}
+.sub2 {
+  display: flex;
+  flex-direction: row;
+}
+.sub3 {
+  display: flex;
+  flex-direction: row;
+}
+
+.clone {
+  margin-top: 40px;
+  margin-left: 50px;
+}
+.clone1 {
+  margin-top: 40px;
+  margin-left: 50px;
+}
+.clone2 {
+  margin-top: 40px;
+  margin-left: 50px;
+}
+.clone3 {
+  margin-top: 40px;
+  margin-left: 50px;
+}
+.pow {
+  height: 20rem;
+  width: 33.19125rem;
+}
+.pow1 {
+  height: 20rem;
+  width: 33.19125rem;
+}
+
+.pow2 {
+  height: 20rem;
+  width: 33.19125rem;
+}
+
+.pow3 {
+  height: 20rem;
+  width: 33.19125rem;
+}
+/* .clone {
+  font-weight: bolder;
+} */
+
+.patt {
+  font-family: Roboto Slab, serif;
+
+  font-size: 300%;
+  font-weight: 300;
+  line-height: 1.2em;
+  margin: 40px;
+  padding-right: 3rem;
+  padding-top: 0.4rem;
+  width: 80%;
+}
+.dark {
+  background-color: #212529;
+  border: solid;
+
+  border-color: #f0f8ff;
+
+  color: #f0f8ff;
+
+  font-size: 1.2rem;
+  margin-top: 4rem;
+  padding: 1rem 2rem;
+  margin-left: 73px;
+}
+.lab {
+  font-family: Roboto Slab, serif;
+
+  font-size: 1.3rem;
+  font-weight: 800;
+  margin-right: 2.2rem;
+  transition: 0.1s;
+  margin: 40px;
+}
+.roof {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: large;
+  text-wrap: balance;
+  font-weight: bold;
+}
+
+.patt:hover {
+  transform: scale(1.1);
+  border-bottom: 1px solid rgb(148, 140, 140);
+  transition: font-weight 1s;
+
+  cursor: pointer;
+}
+.lab:hover {
+  transform: scale(0.99);
+  border-bottom: 1px solid rgb(148, 140, 140);
+  transition: font-weight;
+  font-weight: 300;
+  cursor: pointer;
+}
+.Lets {
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+
+  margin-left: 178px;
+}
+.Lets:hover {
+  transform: scale(1.1);
+  border-bottom: 1px solid rgb(148, 140, 140);
+  transition: font-weight 1s;
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+.roof {
+  margin-left: 40px;
+}
+
+.main {
+  margin: auto;
+  width: 78rem;
+}
+.adjust {
+  display: flex;
+  flex-direction: row;
+}
+.ima {
+  margin-top: 23px;
+  margin-right: 100px;
+  margin-left: -30px;
+  height: 40px;
+  width: 57px;
+  background-color: white;
+}
+.pow:hover {
+  animation: hover-effect 2s forwards;
+}
+@keyframes hover-effect {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(180deg);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .sub {
+    display: block;
+  }
+  .pow {
+    height: 300px;
+    width: 430px;
+    margin-left: 20px;
+  }
+  .sub1 {
+    display: block;
+  }
+  .sub2 {
+    display: block;
+  }
+  .sub3 {
+    display: block;
+  }
+  .roof {
+    width: fit-content;
+  }
+}
